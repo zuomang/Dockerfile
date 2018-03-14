@@ -1,0 +1,8 @@
+FROM alpine:3.7
+
+LABEL maintainer="zuomangjk@gmail.com"
+
+RUN apk update
+RUN apk add bash curl bind-tools
+
+CMD sleep 3600
